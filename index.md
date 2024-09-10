@@ -17,7 +17,7 @@ code: https://github.com/hyunW3/ReNIn
 
 <img src="./static/figure/result.png" style="width:100%;"> <a name='visual_result'></a>
 <i>
-  Figure 1. <b>Qualitative comparison of denoising results. </b> The first row shows denoising performance on normal structured (F01) input images, while the second row presents results on structurally different (SDF01) images. The middle section illustrates the denoising results, and the right section displays the final circle detection outcomes, with "Good" detection marked in green and "Bad" detection marked in red. ReNIn demonstrates superior denoising and edge-preserving capabilities across both image types, whereas other methods fail to maintain structural integrity in SDF01 images, resulting in poor detection performance.
+  <b>Figure 1. Qualitative comparison of denoising results. </b> The first row shows denoising performance on normal structured (F01) input images, while the second row presents results on structurally different (SDF01) images. The middle section illustrates the denoising results, and the right section displays the final circle detection outcomes, with "Good" detection marked in green and "Bad" detection marked in red. ReNIn demonstrates superior denoising and edge-preserving capabilities across both image types, whereas other methods fail to maintain structural integrity in SDF01 images, resulting in poor detection performance.
 </i>
 <div class="columns is-centered has-text-centered">
   <div class="column is-four-fifths">
@@ -38,13 +38,13 @@ code: https://github.com/hyunW3/ReNIn
     <th style="width:50%; font-weight:normal;">
       <img src="./static/figure/trade_off.png" style="width:100%;">
       <i>
-        Figure2. <b>Training data collection cost vs. Denoising performance (PSNR).</b> We compare models on our SEM wafer dataset, using PSNR as the evaluation metric. Each point on the x-axis represents the number of raw noisy images (F#) needed to obtain a target image.
+        <b>Figure2. Training data collection cost vs. Denoising performance (PSNR).</b> We compare models on our SEM wafer dataset, using PSNR as the evaluation metric. Each point on the x-axis represents the number of raw noisy images (F#) needed to obtain a target image.
       </i>
     </th>
     <th style="width:50%; font-weight:normal;" >
       <img src="./static/figure/two_images.png" style="width:100%;">
       <i >
-        Figure3. <b>Generalization issue of N2N.</b> The upper-right image shows a test image similar to the training set (regular circles), while the lower-right represents a structurally different test image (irregular circles). N2N struggles with the latter, particularly in preserving edges.
+        <b>Figure3. Generalization issue of N2N.</b> The upper-right image shows a test image similar to the training set (regular circles), while the lower-right represents a structurally different test image (irregular circles). N2N struggles with the latter, particularly in preserving edges.
       </i>
     </th>
   </tr>
