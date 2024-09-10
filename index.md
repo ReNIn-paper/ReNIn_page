@@ -4,13 +4,18 @@ permalink: /
 
 title: Efficient and Robust SEM Image Denoising for Wafer Defect Inspection
 authors:
-  Hyunwoong Bae$^\textrm{1}$, Jaeseok Byun$^2$, Yongwoo Lee$^3$, and Taesup Moon$^{1,2,4}$
+  # Hyunwoong Bae$^\textrm{1}$, Jaeseok Byun$^2$, Yongwoo Lee$^3$, and Taesup Moon$^{1,2,4}$
+
+  <a href="https://hyunw3.github.io/">Hyunwoong Bae</a>$^\textrm{1}$, 
+  <a href="https://sites.google.com/view/jaeseokbyun">Jaeseok Byun</a>$^2$, 
+  <a href="">Yongwoo Lee</a>$^3$, 
+  and <a href="https://mindlab-snu.github.io/people/pi/">Taesup Moon</a>$^{1,2,4}$
 
 affiliations:
-  $^1$ Interdisciplinary Program in Artificial Intelligence, Seoul National University <br>
-  $^2$ Department of Electrical and Computer Engineering, Seoul National University <br>
-  $^3$ Samsung Electronics <br>
-  $^4$ Artificial Intelligence Institute of Seoul National University (AIIS) / Automation and Systems Research Institute (ASRI) / Institute of New Media and Communications (INMC), Seoul National University <br>
+  $^1$ Interdisciplinary Program in Artificial Intelligence, Seoul National University. <br>
+  $^2$ Department of Electrical and Computer Engineering, Seoul National University. 
+  $^3$ Samsung Electronics. <br>
+  $^4$ Artificial Intelligence Institute of Seoul National University (AIIS) / Automation and Systems Research Institute (ASRI) / Institute of New Media and Communications (INMC), Seoul National University. <br>
 paper: https://github.com/hyunW3/ReNIn_project_page/blob/main/static/SEM_denoising_bae_under_review.pdf
 code: https://github.com/hyunW3/ReNIn
 ---
