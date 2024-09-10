@@ -15,7 +15,7 @@ paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 code: https://github.com/hyunW3/ReNIn
 ---
 
-<img src="/static/figure/result.png" style="width:100%;">
+<img src="./static/figure/result.png" style="width:100%;">
 <i>
   Figure 1. <b>Qualitative comparison of denoising results. </b> The first row shows denoising performance on normal structured (F01) input images, while the second row presents results on structurally different (SDF01) images. The middle section illustrates the denoising results, and the right section displays the final circle detection outcomes, with "Good" detection marked in green and "Bad" detection marked in red. ReNIn demonstrates superior denoising and edge-preserving capabilities across both image types, whereas other methods fail to maintain structural integrity in SDF01 images, resulting in poor detection performance.
 </i>
@@ -36,13 +36,13 @@ code: https://github.com/hyunW3/ReNIn
 <table>
   <tr>
     <th style="width:50%; font-weight:normal;">
-      <img src="/static/figure/trade_off.png" style="width:100%;">
+      <img src="./static/figure/trade_off.png" style="width:100%;">
       <i>
         Figure2. <b>Training data collection cost vs. Denoising performance (PSNR).</b> We compare models on our SEM wafer dataset, using PSNR as the evaluation metric. Each point on the x-axis represents the number of raw noisy images (F#) needed to obtain a target image.
       </i>
     </th>
     <th style="width:50%; font-weight:normal;" >
-      <img src="/static/figure/two_images.png" style="width:100%;">
+      <img src="./static/figure/two_images.png" style="width:100%;">
       <i >
         Figure3. <b>Generalization issue of N2N.</b> The upper-right image shows a test image similar to the training set (regular circles), while the lower-right represents a structurally different test image (irregular circles). N2N struggles with the latter, particularly in preserving edges.
       </i>
@@ -57,7 +57,7 @@ Noise from SEM images complicates wafer defect inspection, a crucial task in sem
 2. **Generalization**: Models trained on regular structures often fail when applied to images with irregular patterns. See Figure3.
 
 ### Solution: ReNIn
-<img src="/static/figure/ReNIn_overview.png" style="width:100%;">
+<img src="./static/figure/ReNIn_overview.png" style="width:100%;">
 <i>
     Figure3. <b>Overall training procedure of ReNIn.</b> Here, $\odot$ denotes element-wise multiplication. Note that the masking strategy is only applied in the training phase, not during the inference phase.
 </i>
