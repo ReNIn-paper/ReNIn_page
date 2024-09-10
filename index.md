@@ -76,7 +76,7 @@ Noise from SEM images complicates wafer defect inspection, a crucial task in sem
 ---
 
 ## Experimental Results
-In our experiments, the ReNIn method demonstrates superior denoising performance compared to supervised learning, especially on challenging structurally different (SDF01) images. As shown in both quantitative (PSNR, SSIM) and qualitative results, ReNIn produces clearer images while preserving edge details, outperforming other methods that either struggle with noise removal or lose structural integrity. It achieves results nearly indistinguishable from those of supervised learning but at a significantly lower data collection cost ($8 \times$ cheaper), demonstrating its strong generalization ability, further enhanced by the use of input dropout.
+In our experiments, the ReNIn method demonstrates **superior denoising performance** compared to supervised learning, especially on challenging structurally different (SDF01) images. As shown in both quantitative (PSNR, SSIM) and qualitative results, ReNIn produces **clearer images while preserving edge details**, outperforming other methods that either struggle with noise removal or lose structural integrity. It achieves results **nearly indistinguishable from those of supervised learning but at a significantly lower data collection cost** ($8 \times$ cheaper), demonstrating its strong generalization ability, further enhanced by the use of input dropout.
 
 
 ### PSNR(dB)/SSIM results of various methods <a name="quantitative-results"></a>
