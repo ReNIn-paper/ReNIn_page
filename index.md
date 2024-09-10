@@ -11,7 +11,7 @@ affiliations:
   $^2$ Department of Electrical and Computer Engineering, Seoul National University <br>
   $^3$ Samsung Electronics <br>
   $^4$ Artificial Intelligence Institute of Seoul National University (AIIS) / Automation and Systems Research Institute (ASRI) / Institute of New Media and Communications (INMC), Seoul National University <br>
-paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
+paper: https://github.com/hyunW3/ReNIn_project_page/static/SEM_denoising_bae_under_review.pdf
 code: https://github.com/hyunW3/ReNIn
 ---
 
