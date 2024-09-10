@@ -1,13 +1,8 @@
-# Project Website
-
-This repository jekyll-ized the source code for the [Nerfies website](https://nerfies.github.io).
-You only need to change the content of [index.md](/index.md). 
-It's possible to only write in markdown, but you can also use HTML to achieve fancier effects.
-
-Here is an [example website](https://shunzh.github.io/project_website/).
+# ReNIn Project Website
+The website of the ReNIn project.
+Thanks to github repo of [project_website_template](https://github.com/shunzh/project_website), which is a template for creating a website for a research project.
 
 ## Test it locally
-
 Install [Jekyll](https://jekyllrb.com/docs/installation/), and run
 ```
 jekyll serve

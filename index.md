@@ -109,7 +109,7 @@ Details are the same as Table [PSNR(dB)/SSIM results](#quantitative-results).
 |                           | Supervised learning              | 0.00%                | 100.00%             | 100.00%              | 66.67%              |
 |                           | **ReNIn (Ours)**                 | **0.00%**            | **0.93%**           | **2.31%**            | **1.08%**           |
 
-### Visual results
+### Qualitative results
 See [Figure 1](#visual_result) for a qualitative comparison of denoising results with supervised learning.
 
 ---
