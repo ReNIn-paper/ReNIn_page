@@ -15,7 +15,7 @@ paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 code: https://github.com/hyunW3/ReNIn
 ---
 
-<img src="./static/figure/result.png" style="width:100%;">
+<img src="./static/figure/result.png" style="width:100%;"> <a name='visual_result'></a>
 <i>
   Figure 1. <b>Qualitative comparison of denoising results. </b> The first row shows denoising performance on normal structured (F01) input images, while the second row presents results on structurally different (SDF01) images. The middle section illustrates the denoising results, and the right section displays the final circle detection outcomes, with "Good" detection marked in green and "Bad" detection marked in red. ReNIn demonstrates superior denoising and edge-preserving capabilities across both image types, whereas other methods fail to maintain structural integrity in SDF01 images, resulting in poor detection performance.
 </i>
@@ -79,7 +79,7 @@ Noise from SEM images complicates wafer defect inspection, a crucial task in sem
 In our experiments, the ReNIn method demonstrates **superior denoising performance** compared to supervised learning, especially on challenging structurally different (SDF01) images. As shown in both quantitative (PSNR, SSIM) and qualitative results, ReNIn produces **clearer images while preserving edge details**, outperforming other methods that either struggle with noise removal or lose structural integrity. It achieves results **nearly indistinguishable from those of supervised learning but at a significantly lower data collection cost** ($8 \times$ cheaper), demonstrating its strong generalization ability, further enhanced by the use of input dropout.
 
 
-### PSNR(dB)/SSIM results of various methods <a name="quantitative-results"></a>
+### PSNR(dB)/SSIM results <a name="quantitative-results"></a>
 Since the evaluation images consist of one F01 and two SDF01 images, they are referred to as 1st F01, 1st SDF01, and 2nd SDF01 for convenience. The "average" column in PSNR/SSIM shows the averaged PSNR/SSIM values of the three evaluation images.  
 The best results for each image are marked in **bold**, while the second ones are _underlined_, except for the median filter (F32), which utilized high-cost F32 images as input.
 
@@ -94,7 +94,7 @@ The best results for each image are marked in **bold**, while the second ones ar
 |                           | Supervised learning              | **23.66 / 0.3668**   | _16.24 / 0.1727_    | _17.77 / 0.1830_     | _19.22 / 0.2408_     |
 |                           | **ReNIn (Ours)**                     | _23.05 / 0.3446_     | **20.39 / 0.2508**  | **19.12 / 0.2181**   | **20.85 / 0.2712**   |
 
-### Failure rate (FR) results of various methods  <a name="fr-results"></a>
+### Failure rate (FR) results  <a name="fr-results"></a>
 Details are the same as Table [PSNR(dB)/SSIM results](#quantitative-results).
 
 | Category                  | Model                            | 1st F01              | 1st SDF01           | 2nd SDF01            | Average             |
@@ -109,6 +109,8 @@ Details are the same as Table [PSNR(dB)/SSIM results](#quantitative-results).
 |                           | Supervised learning              | 0.00%                | 100.00%             | 100.00%              | 66.67%              |
 |                           | **ReNIn (Ours)**                 | **0.00%**            | **0.93%**           | **2.31%**            | **1.08%**           |
 
+### Visual results
+See [Figure 1](#visual_result) for a qualitative comparison of denoising results with supervised learning.
 
 ---
 ## Reference
