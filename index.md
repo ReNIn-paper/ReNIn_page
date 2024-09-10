@@ -44,13 +44,13 @@ code: https://github.com/hyunW3/ReNIn
     <th style="width:50%; font-weight:normal;" >
       <img src="./static/figure/two_images.png" style="width:100%;">
       <i >
-        <b>Figure3. Generalization issue of N2N.</b> The upper-right image shows a test image similar to the training set (regular circles), while the lower-right represents a structurally different test image (irregular circles). N2N struggles with the latter, particularly in preserving edges.
+        <b>Figure3. Generalization issue of Noise2Noise (N2N).</b> The upper-right image shows a test image similar to the training set (regular circles), while the lower-right represents a structurally different test image (irregular circles). N2N struggles with the latter, particularly in preserving edges.
       </i>
     </th>
   </tr>
 </table>
 
-Noise from SEM images complicates wafer defect inspection, a crucial task in semiconductor manufacturing. Traditional approaches involve averaging multiple noisy frames to obtain a clean image, a method that is resource-intensive and expensive. Deep learning-based techniques, like Noise2Noise (N2N), have gained traction but face challenges regarding generalization and efficiency.
+Noise from SEM images complicates wafer defect inspection, a crucial task in semiconductor manufacturing. Traditional approaches involve averaging multiple noisy frames to obtain a clean image, a method that is resource-intensive and expensive. Deep learning-based techniques, like Noise2Noise (N2N) ([Lehtinen et al., 2018])(#Lehtinen), have gained traction but face challenges regarding generalization and efficiency.
 
 ### Key Challenges:
 1. **Efficiency**: There is a trade-off between collecting training data (the number of raw noisy images) and denoising performance (measured in PSNR). See Figure2.
