@@ -17,7 +17,7 @@ affiliations:
   $^3$ Samsung Electronics. <br>
   $^4$ Artificial Intelligence Institute of Seoul National University (AIIS) / Automation and Systems Research Institute (ASRI) / Institute of New Media and Communications (INMC), Seoul National University. <br>
 paper: https://github.com/hyunW3/ReNIn_project_page/blob/main/static/SEM_denoising_bae_under_review.pdf
-code: https://github.com/hyunW3/ReNIn
+code: https://github.com/ReNIn-paper/ReNIn_code
 ---
 
 <img src="./static/figure/result.png" style="width:100%;"> <a name='visual_result'></a>
