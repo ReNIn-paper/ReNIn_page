@@ -19,7 +19,15 @@ affiliations:
 paper: https://github.com/hyunW3/ReNIn_project_page/blob/main/static/SEM_denoising_bae_under_review.pdf
 code: https://github.com/ReNIn-paper/ReNIn_code
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-206D7KJ28Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-206D7KJ28Q');
+</script>
 <img src="./static/figure/result.png" style="width:100%;"> <a name='visual_result'></a>
 <i>
   <b>Figure 1. Qualitative comparison of denoising results. </b> The first row shows denoising performance on normal structured (F01) input images, while the second row presents results on structurally different (SDF01) images. The middle section illustrates the denoising results, and the right section displays the final circle detection outcomes, with "Good" detection marked in green and "Bad" detection marked in red. ReNIn demonstrates superior denoising and edge-preserving capabilities across both image types, whereas other methods fail to maintain structural integrity in SDF01 images, resulting in poor detection performance.
@@ -126,4 +134,3 @@ See [Figure 1](#visual_result) for a qualitative comparison of denoising results
 
 > **Note**: This project page is under construction. Content is for demonstration purposes only.
 
-{% include GA_header.html %}
