@@ -125,3 +125,14 @@ See [Figure 1](#visual_result) for a qualitative comparison of denoising results
 - Lehtinen, J., Munkberg, J., Hasselgren, J., Laine, S., Karras, T., Aittala, M., and Aila, T. (2018). Noise2Noise: Learning image restoration without clean data. In International Conference on Machine Learning, pages 4620–4631. International Machine Learning Society. <a name='Lehtinen'> </a>
 
 > **Note**: This project page is under construction. Content is for demonstration purposes only.
+<!--html_preserve-->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-206D7KJ28Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-206D7KJ28Q');
+</script>
+<!--html_preserve-->
