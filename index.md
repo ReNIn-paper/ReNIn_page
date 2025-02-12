@@ -126,14 +126,4 @@ See [Figure 1](#visual_result) for a qualitative comparison of denoising results
 
 > **Note**: This project page is under construction. Content is for demonstration purposes only.
 
-<!--html_preserve-->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-206D7KJ28Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-206D7KJ28Q');
-</script>
-<!--html_preserve-->
+{% include GA_header.html %}
