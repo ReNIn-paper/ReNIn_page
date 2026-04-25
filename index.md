@@ -169,17 +169,17 @@ See [Figure 1](#visual_result) for a qualitative comparison of denoising results
     font-family: 'Google Sans', sans-serif;
     font-size: 0.85em;
     font-weight: 600;
-    color: #fff;
-    background: #363636;
+    color: #000;
+    background: #fff;
     border: 1px solid #363636;
     border-radius: 9999px;
     cursor: pointer;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
     transition: background 0.15s ease, transform 0.15s ease;
   }
-  .bibtex-copy-btn:hover { background: #000; border-color: #000; }
+  .bibtex-copy-btn:hover { background: #f0f0f0; }
   .bibtex-copy-btn:active { transform: translateY(1px); }
-  .bibtex-copy-btn.copied { background: #2ecc71; border-color: #2ecc71; }
+  .bibtex-copy-btn.copied { background: #2ecc71; border-color: #2ecc71; color: #fff; }
 </style>
 
 <script>
