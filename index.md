@@ -126,11 +126,13 @@ Details are the same as Table [PSNR(dB)/SSIM results](#quantitative-results).
 See [Figure 1](#visual_result) for a qualitative comparison of denoising results with supervised learning.
 
 ---
+
 ## Reference
 - Dabov, K., Foi, A., Katkovnik, V., and Egiazarian, K. (2007). Image denoising by sparse 3-D transform-domain collaborative filtering. IEEE Transactions on Image Processing, pages 2080–2095. <a name='Dabov'> </a>
 - Krull, A., Buchholz, T.-O., and Jug, F. (2019). Noise2void-learning denoising from single noisy images. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2129–2137. Institute of Electrical and Electronics Engineers/The Computer Vision Foundation. <a name='Krull'></a>
 - Byun, J., Cha, S., and Moon, T. (2021). FBI-denoiser: Fast blind image denoiser for poisson-gaussian noise. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5768–5777. Institute of Electrical and Electronics Engineers/The Computer Vision Foundation. <a name='Byun'> </a>
 - Lehtinen, J., Munkberg, J., Hasselgren, J., Laine, S., Karras, T., Aittala, M., and Aila, T. (2018). Noise2Noise: Learning image restoration without clean data. In International Conference on Machine Learning, pages 4620–4631. International Machine Learning Society. <a name='Lehtinen'> </a>
+
 ## BibTeX citation
 ```
 @article{10.1093/mam/ozaf084,
