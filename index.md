@@ -131,6 +131,22 @@ See [Figure 1](#visual_result) for a qualitative comparison of denoising results
 - Krull, A., Buchholz, T.-O., and Jug, F. (2019). Noise2void-learning denoising from single noisy images. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 2129–2137. Institute of Electrical and Electronics Engineers/The Computer Vision Foundation. <a name='Krull'></a>
 - Byun, J., Cha, S., and Moon, T. (2021). FBI-denoiser: Fast blind image denoiser for poisson-gaussian noise. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 5768–5777. Institute of Electrical and Electronics Engineers/The Computer Vision Foundation. <a name='Byun'> </a>
 - Lehtinen, J., Munkberg, J., Hasselgren, J., Laine, S., Karras, T., Aittala, M., and Aila, T. (2018). Noise2Noise: Learning image restoration without clean data. In International Conference on Machine Learning, pages 4620–4631. International Machine Learning Society. <a name='Lehtinen'> </a>
-
-> **Note**: This project page is under construction. Content is for demonstration purposes only.
+## BibTeX citation
+```
+@article{10.1093/mam/ozaf084,
+    author = {Bae, Hyunwoong and Byun, Jaeseok and Lee, Yongwoo and Moon, Taesup},
+    title = {Efficient and Robust SEM Image Denoising for Wafer Defect Inspection},
+    journal = {Microscopy and Microanalysis},
+    volume = {31},
+    number = {5},
+    pages = {ozaf084},
+    year = {2025},
+    month = {10},
+    issn = {1431-9276},
+    doi = {10.1093/mam/ozaf084},
+    url = {https://doi.org/10.1093/mam/ozaf084},
+    eprint = {https://academic.oup.com/mam/article-pdf/31/5/ozaf084/64884078/ozaf084.pdf},
+}
+```
+<!--- > **Note**: This project page is under construction. Content is for demonstration purposes only. --->
 
