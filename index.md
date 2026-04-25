@@ -134,8 +134,12 @@ See [Figure 1](#visual_result) for a qualitative comparison of denoising results
 - Lehtinen, J., Munkberg, J., Hasselgren, J., Laine, S., Karras, T., Aittala, M., and Aila, T. (2018). Noise2Noise: Learning image restoration without clean data. In International Conference on Machine Learning, pages 4620–4631. International Machine Learning Society. <a name='Lehtinen'> </a>
 
 ## BibTeX citation
-```
-@article{10.1093/mam/ozaf084,
+<div class="bibtex-container">
+  <button type="button" class="bibtex-copy-btn" onclick="copyBibtex(this)" aria-label="Copy BibTeX to clipboard">
+    <span class="icon"><i class="fas fa-copy"></i></span>
+    <span class="bibtex-copy-label">Copy</span>
+  </button>
+<pre><code id="bibtex-citation">@article{10.1093/mam/ozaf084,
     author = {Bae, Hyunwoong and Byun, Jaeseok and Lee, Yongwoo and Moon, Taesup},
     title = {Efficient and Robust SEM Image Denoising for Wafer Defect Inspection},
     journal = {Microscopy and Microanalysis},
@@ -148,7 +152,62 @@ See [Figure 1](#visual_result) for a qualitative comparison of denoising results
     doi = {10.1093/mam/ozaf084},
     url = {https://doi.org/10.1093/mam/ozaf084},
     eprint = {https://academic.oup.com/mam/article-pdf/31/5/ozaf084/64884078/ozaf084.pdf},
-}
-```
+}</code></pre>
+</div>
+
+<style>
+  .bibtex-container { position: relative; }
+  .bibtex-copy-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    font-size: 0.85em;
+    color: #f5f5f5;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .bibtex-copy-btn:hover { background: rgba(255, 255, 255, 0.22); }
+  .bibtex-copy-btn.copied { background: #2ecc71; border-color: #2ecc71; color: #fff; }
+</style>
+
+<script>
+  function copyBibtex(btn) {
+    var text = document.getElementById('bibtex-citation').innerText;
+    var label = btn.querySelector('.bibtex-copy-label');
+    var icon = btn.querySelector('.icon i');
+    var done = function () {
+      btn.classList.add('copied');
+      if (label) label.textContent = 'Copied!';
+      if (icon) { icon.classList.remove('fa-copy'); icon.classList.add('fa-check'); }
+      setTimeout(function () {
+        btn.classList.remove('copied');
+        if (label) label.textContent = 'Copy';
+        if (icon) { icon.classList.remove('fa-check'); icon.classList.add('fa-copy'); }
+      }, 1500);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function () { fallbackCopy(text, done); });
+    } else {
+      fallbackCopy(text, done);
+    }
+  }
+  function fallbackCopy(text, done) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); done(); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+</script>
 <!--- > **Note**: This project page is under construction. Content is for demonstration purposes only. --->
 
