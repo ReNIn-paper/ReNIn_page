@@ -139,7 +139,7 @@ See [Figure 1](#visual_result) for a qualitative comparison of denoising results
     <span class="icon"><i class="fas fa-copy"></i></span>
     <span class="bibtex-copy-label">Copy</span>
   </button>
-<pre><code id="bibtex-citation">@article{10.1093/mam/ozaf084,
+<pre><code id="bibtex-citation-code">@article{10.1093/mam/ozaf084,
     author = {Bae, Hyunwoong and Byun, Jaeseok and Lee, Yongwoo and Moon, Taesup},
     title = {Efficient and Robust SEM Image Denoising for Wafer Defect Inspection},
     journal = {Microscopy and Microanalysis},
@@ -184,7 +184,7 @@ See [Figure 1](#visual_result) for a qualitative comparison of denoising results
 
 <script>
   function copyBibtex(btn) {
-    var text = document.getElementById('bibtex-citation').innerText;
+    var text = document.getElementById('bibtex-citation-code').innerText;
     var label = btn.querySelector('.bibtex-copy-label');
     var icon = btn.querySelector('.icon i');
     var done = function () {
